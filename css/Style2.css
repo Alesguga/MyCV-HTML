@@ -1,0 +1,27 @@
+.img-zoom {
+    transition: transform 0.2s ease-in-out;
+    /* Ajusta el valor de la transición para una animación más fluida */
+}
+
+.img-zoom:hover {
+    transform: scale(1.2);
+    color: white;
+    /* Cambia el color a blanco */
+}
+
+img.svg-img:hover {
+    filter: brightness(0) invert(1);
+}
+
+img.svg2-img:hover {
+    filter: brightness(0) invert(1) sepia(1) hue-rotate(200deg);
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
